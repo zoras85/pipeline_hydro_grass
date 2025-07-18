@@ -13,7 +13,6 @@ Dernière modification : 12/07/2025
 import logging
 import os
 import sys
-import time
 import shutil
 import subprocess
 from datetime import datetime
