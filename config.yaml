@@ -1,0 +1,31 @@
+# --- Coordonnées et zone ---
+LAT: -24.96798112
+LON: 47.08216428
+BBOX_SIZE_KM: 50.0
+SITE_NAME: "Mandena"
+
+# --- Projections / raster ---
+EPSG_CIBLE: 32738
+NODATA_VALUE: -9999.0
+
+# --- Hydro ---
+STREAM_THRESHOLD_KM2: 0.5
+
+# --- Dépendances / chemins (⚠️ guillemets simples autour des chemins Windows) ---
+GRASS_GISBASE: 'C:\OSGeo4W\apps\grass\grass84'
+QGIS_PATH: 'C:\Program Files\QGIS 3.40.10'
+GDALWARP_CMD: 'C:\Program Files\QGIS 3.40.10\bin\gdalwarp.exe'
+GDAL_DATA_EXT: 'C:\Program Files\QGIS 3.40.10\apps\gdal\share\gdal'
+PROJ_LIB_EXT: 'C:\Program Files\QGIS 3.40.10\share\proj'
+GDAL_BIN_EXT: 'C:\OSGeo4W\bin'
+
+# --- Dossiers travail/sortie ---
+OUTPUT_DIR: 'D:\Bureau\00-D3\SWAT+_Projet_Mine\Hydro_Output_GRASS'
+TEMP_DIR: 'D:\TEMP_HYDRO_WORK'
+GRASS_DB_DIR: 'D:\HydroGRASS_Project\GRASSdata'
+
+# --- API (placeholder env) ---
+OPENTOPOGRAPHY_API_KEY: "${env:OPENTOPOGRAPHY_API_KEY}"
+
+# --- Dev ---
+DEV_MODE: false
