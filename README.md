@@ -60,7 +60,7 @@ Les résultats seront enregistrés dans le répertoire de sortie que vous avez s
 
 ## Dernière Modification
 
-* 12 Juillet 2025
+* 21 Août 2025
 
 ## Licence
 
